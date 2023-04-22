@@ -64,7 +64,7 @@ int main() {
 
     //print
     for (int count = 0; count < G.V; count++) {
-        printf("Vertex %d has in-degree %d\n", count, in_degrees[count]);
+        printf(" %d in-degree of vertex %d\n",in_degrees[count], count);
     }
 
     //freeing memory
